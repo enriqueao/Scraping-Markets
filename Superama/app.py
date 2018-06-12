@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -- coding: utf-8 --
 
 import json
 import requests
@@ -54,7 +55,7 @@ db = MySQLdb.connect(host="192.241.142.12",    # your host, usually localhost
 
 cursor = db.cursor()
 
-cursor.execute("SELECT * FROM products;")
+cursor.execute("SELECT * FROM products WHERE productpic IS NULL;")
 
 productos = list()
 results = cursor.fetchall()
@@ -68,7 +69,7 @@ price = open("prices.txt","w")
 for dat in productos:
     # print(cleanString(dat['code']))
     params = dict(
-        busqueda = cleanString(dat['code'])
+        busqueda = dat['code']
     )
 
     data = requests.get(url, proxies=proxy, params=params, headers=headers)
@@ -85,14 +86,14 @@ for dat in productos:
         insert = "UPDATE products SET description='" + \
             output['Products'][0]['DescriptionDisplay'] + \
             "', productpic='" + \
-            str(output['Products'][0]['ImageUrl']) + \
+            "https://www.superama.com.mx/"+str(output['Products'][0]['ImageUrl']) + \
             "' WHERE idProduct="+str(dat['idProducto'])+";"
         # print(insert)
-        insertPrice = "INSERT INTO productsprices (idProduct,price, idMarket, numofconfirms, createdAt, updatedAt) VALUES ('"+str(dat['idProducto'])+"','"+str(
-            output['Products'][0]['PrecioNumerico'])+"', '1', '10', NOW(), NOW());"
+        # insertPrice = "INSERT INTO productsprices (idProduct,price, idMarket, numofconfirms, createdAt, updatedAt) VALUES ('"+str(dat['idProducto'])+"','"+str(
+        #     output['Products'][0]['PrecioNumerico'])+"', '1', '10', NOW(), NOW());"
          
-        file.write(insert)
-        price.write(insertPrice)
+        file.write(insert.encode("utf8"))
+        #price.write(insertPrice)
         print("producto encontrado")
     else:
         print("producto no encontrado")

@@ -1,4 +1,4 @@
-upc = "0097339000054";
+upc = "0750105590932";
 // console.log(upc.length);
 for (var i = 0; i < upc.length; i++) {
     if (upc.charAt(i) != '0') {

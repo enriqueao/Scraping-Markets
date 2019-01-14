@@ -1,0 +1,61 @@
+
+addProduct(description: "Jugo de naranja Jumex Unico Fresco sin pulpa 1 l", format: "N/A", upc: "0750101313885", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750101313885M.jpg", price: "20.60", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de naranja Jumex Unico Fresco con pulpa 1 l", format: "N/A", upc: "0750101313897", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750101313897M.jpg", price: "20.60", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Bebida Ocean Spray  arándano 1 l", format: "N/A", upc: "0003120045456", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0003120045456M.jpg", price: "22.00", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo verde Jumex Unico Fresco 1 l", format: "N/A", upc: "0750101318067", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750101318067M.jpg", price: "20.60", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de toronja Jumex Unico Fresco 1 l", format: "N/A", upc: "0750101313865", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750101313865M.jpg", price: "24.00", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo naranja, apio y nopal Frutos de Vida  1 l", format: "N/A", upc: "0750301238309", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750301238309M.jpg", price: "39.90", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Bebida Ocean Spray  light arándano 1 l", format: "N/A", upc: "0003120061033", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0003120061033M.jpg", price: "22.00", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de manzana Jumex Unico Fresco 1 l", format: "N/A", upc: "0750101310013", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750101310013M.jpg", price: "22.00", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de naranja Lala Naturales 1 l", format: "N/A", upc: "0750102052755", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750102052755M.jpg", price: "25.00", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Bebida Boing  jugo de manzana 250 ml", format: "N/A", upc: "0000007500179", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0000007500179M.jpg", price: "5.20", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de mango y naranja Frutos de Vida  1 l", format: "N/A", upc: "0750301238307", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750301238307M.jpg", price: "39.90", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Bebida Florida 7  con jugo de naranja y mandarina 1 l", format: "N/A", upc: "0750104690725", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750104690725M.jpg", price: "12.50", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Bebida Boing  pulpa de mango 250 ml", format: "N/A", upc: "0000007500175", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0000007500175M.jpg", price: "5.20", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de guayaba y naranja Frutos de Vida  1 l", format: "N/A", upc: "0750301238311", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750301238311M.jpg", price: "39.90", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo Jumex  piña 1 l", format: "N/A", upc: "0750101312211", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750101312211M.jpg", price: "16.70", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de manzana TreeTop  1 l", format: "N/A", upc: "0072909005082", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0072909005082M.jpg", price: "22.50", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de manzana TreeTop  1.89 l", format: "N/A", upc: "0072909005091", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0072909005091M.jpg", price: "46.00", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de naranja y mango Jumex Unico Fresco con pulpa 1 l", format: "N/A", upc: "0750101312245", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750101312245M.jpg", price: "24.50", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de naranja y zanahoria Jumex Único Fresco 1 l", format: "N/A", upc: "0750101312251", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750101312251M.jpg", price: "20.60", market: "Superama"){ 
+    id    
+}
+addProduct(description: "Jugo de naranja Jumex Unico Fresco sin pulpa 200 ml", format: "N/A", upc: "0750101311750", pic: "https://www.superama.com.mx/Content/images/products/img_medium/0750101311750M.jpg", price: "6.80", market: "Superama"){ 
+    id    
+}
